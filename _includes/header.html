@@ -109,7 +109,7 @@
           <i class="fa fa-language" title="language convert"></i>
         {%- endif -%}
         {%- if site.support_second_language -%}
-          <a target="_blank" href="../resume" class="button button--sacnite button--round-l">
+          <a href="../resume" class="button button--sacnite button--round-l">
           <i class="fa fa-language" title="language convert"></i>
         {%- endif -%}
       </ul>
@@ -123,6 +123,11 @@
         <p>
           {{site.resume.title | default: "resume" }} <a href="./Resume.html" target="_blank"></a>
         </p>
+      {%- endif -%}
+      {%- if site.resume -%}
+          <li><a href="./Resume.html" target="_blank">
+            <p>{{site.resume.title | default: "resume" }}</p>
+          </a></li>
       {%- endif -%}
       {%- if site.phone -%}
         <p>
