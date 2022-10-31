@@ -7,40 +7,36 @@ baseurl: "/resume_eng"
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: 위당준
+title: Software Engineer
+email: djwe1992@gmail.com
+# website: www.github.com/frank217
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: facespics
+github_username:  frank217
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: dang-jun-we
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: /images/Resume_Dang Jun We_2022_ENG.pdf
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -50,67 +46,137 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_title: About Me
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
+  C# / Javascript / Python 기반의 3년차 백엔드 개발자로 3년동안 미국 뉴욕에 본사를 둔 Viagogo / Stubhub 의 퍼포먼스 마케팅팀 에서 
+  **Paid Search 자동화 및 개선**을 주로 해왔습니다.<br/>
+  그 이외에도 팀내에 **A/B 테스팅 툴 웹사이트의 프런트/백엔드** 개발에 기여했으며,
+  자동화에 필요한 **데이타 파이프라이닝**을 위해 Azure Data Explorer(Kusto) 와 SQL도 사용하였습니다.<br/>
+  3년 동안 Google Ads Compliance, 코로나, Stubhub 인수합병 등 회사의 여러 상황을 경험하며 이에 따른 여러 상황해소 및 개선 작업에 참여했습니다.<br/>
+  오늘의집에 영감을 받아 3명의 맴버와 함께 인테리어 관련 SNS **iOS 모바일 앱** 개발. 
+  
 content:
-  - title: Projects # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Viagogo / Stubhub <br/> US - New York
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Performance Marketing Team Software Engineer
+        caption:  2019.07 - 2022.07
         quote: >
-          Short overview of the project (optional)
+          퍼포먼스 마케팅을 이용한 회사 티켓 판매 증가 및 이익증진 기여 
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+            * **Paid Search 자동화 구현 및 개선**. Google Ads / Google Adwords(deprecated) / Microsoft Ads(Bing) API 툴 사용.
+            * Viagogo 와 Stubhub 합병으로 인한 **백엔드 통합 작업** 수행. DB 통합이후 원활한 Stubhub Paid Search 광고 게재를 위해 데이터 파이프라인 구현
+            및 그에 따른 자동화 프로세스 추가 개발. DB 통합 당일 **트래픽 2배 이상** 증가. 
+            * 키워드 적용범위를 최대한 증가시키기 위해 Google Keyword Planner API 사용해서 신규 키워드 찾는 툴 개발. 광고로 인한 수익의 90% 담당하는 
+            키워드 4천개 사용해 **14만개의 관련 신규 키워드** 발견.
+            * 과도한 API 요청으로 인한 API ratelimit 문제 개선을 위해 Ratelimiter 개발. 당시 발생하는 **ratelimit 80% 감소해** API 요청을 위해 사용되면 리소스
+            감소 및 ratelimit 로깅 감소. 이후 이를 사용해 ratelimit 걸리는 request 세분화 및 순차적으로 가장 많이 많이 문제가 발생하는 부분 위주로 리퀘스 수 개선 요구 및 참여. 
+            * 자동화 시스템에 Bidding Strategy을 상황에 따라 변경 할 수 있게 개발. 이로인해 새로운 Target ROAS(Bidding Strategy)를 사용함에 과도한 Bidding 리퀘스트 50% 감소. 
+            * Google Ads의 규정준수를 위해 팀내 거의 모든 앱에서 사용되는 **Compliance 패키지 구현**. 프로덕트팀이 DB에 규정준수를 위한 제한된 키워드 및 나라 제한을 
+            더하기 위한 파이프라인 구현. 이후 앱에서 이와 관련된 사항 발견시 Azure Data Explorer에 로깅 및 이후 프로세스에서 제외.  
+            * 팀내의 A/B 테스팅을 위한 **웹사이트 툴의 프론트/백엔드** 개발 참여. 기존 프레임 워크에 프로덕트팀 및 개발팀이 테스트에 필요한 페이지 추가.
+            웹사이트 툴로 테스트 만들기, 개발, QA 및 Production 환경에 deploy 가능하게 지원. 테스트 데이터 대시보드 지원. 
+            * A/B 테스팅에서 발생하는 에러 및 지연시간 개선은 위한 SQL 튜닝 및 버그 해소. 원활한 테스트 진행을 위해 14개의 PROC 개선 및 버그 수정.
+      
+      - layout: left
+        title: HueSpace (Startup)
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Lead Software Engineer
+        caption:  2020.07 - 2020.12
         quote: >
-          Short description of the company (optional)
+          인테리어 좋아하는 사람들을 위한 SNS!
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+            * **Swift 와 XCode** 사용해 iOS 앱 개발. 
+            * 인스타그램과 유사한 구조의 SNS를 프론트/백엔드 구현.
+            * **Firebase**를 이용한 Nosql DB 구현. 
+            * 사용자 앱 개선을 위해 UX/UI 작업 참여. 
+            * 사용자가 올리는 포스트에 가구 및 색상 태깅 기능을 활용해 원하는 포스트 서치 기능 구현. 
+            * 존재하는 색상 배합 설계툴 이용해 사용자가 원하는 색으로 3개에서 5개의 색상배합 설계 가능한 기능 추가 및
+            이를 사용해 3일 단위로 사람들에게 새로운 색상 배합의 포스트 공유기능 구현. 
+            * Facebook 및 Google Login 기능 추가
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        #caption: 2017 - 2019
+        #sub_title: BA Computer Science
+        #quote: >
+        #  Go Rice Owls
+        description: | # this will include new lines to allow paragraphs
+          * Language : C#(Visual Studio), Python(Visual Studio Code), Java(IntelliJ)
+          * MYSQL(SQL Server Management Studio & Redgate), NoSQL(Firebase), Kusto(Azure Data Explorer)
+          * Azure, Microsoft Devops tools.
+
+      - layout: left
+        title: Frontend
+        #caption: 2017 -  2019
+        #sub_title: BA Computer Science
+        #quote: >
+        #  Go Rice Owls
+        description: | # this will include new lines to allow paragraphs
+          * Language : Javascript, Html, CCS,
+          * DJango, Bootstropm, NodeJS
+          * Swift(iOS 개발)
+    
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rice University
+        caption: 2017 - 2019
+        sub_title: BA Computer Science
+        quote: >
+          라이스 대학 재학 당시 컴퓨터 과학의 기본이 되는 많은 수업을 들었으며 그 중 개발자로 도움이 되는 수업이 대부분이였습니다. 
+        description: | # this will include new lines to allow paragraphs
+          * Advanced OOP & Design : OOP 이해도 개선과 이를 위해 Java를 사용한 다양한 앱 구현.
+          * Parallel Programing : 병렬프로그래밍 수업. 병렬 프로그래밍의 배움과 이를 이용한 효률적 쓰래딩 이해도 개선. AWS EC2 와 EMR 사용. 
+          * Tools & models for Data Science : SQL 사용법 및 이해도 개선. 
+          * Reasoning of Algorithm : 알고리즘 수업. 이후에 이해도 증진을 위해 수업조교로도 활동. 
+          * Artificial intelligence : 다양한 AI 구현 방법과 이를 이용한 사례 공부 및 구현. 
+          * Linear Algebra : 선영대수학. ML/AI 수업을 위해서 
+          * Linear Regression : 선영회귀. ML/AI 수업을 위해서 
+          * Probabilistic Algorithms and Data Structures : 결정론적인 알고리즘이 아닌 확률론적인 알고리즘 수업. 
+          메모리와 런타임의 2차원 교환인 아닌 정확도까지 포함 3차원적 비결정론적 알고리즘의 이해 및 구현.
+          * Operating System : OS 시스템 구현 수업    
+          * Principle of Programming Languages : 프로그램 언어의 작동방법 이해와 개발에 참여.
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+#
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
