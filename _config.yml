@@ -40,8 +40,7 @@ linkedin_username: dang-jun-we
 #   url: Link url (eg. https://google.com)
 
 # Resume PDF
-resume: 
- - title: Resume Download
+resume: Resume Download
  
 support_second_language: "../resume"
 
