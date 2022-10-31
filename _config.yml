@@ -42,6 +42,10 @@ additional_links:
 # Resume PDF
 resume: 
  - title: Resume Download
+ 
+ support_second_language: 
+ - url: "/resume"
+
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting

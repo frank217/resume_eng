@@ -105,21 +105,24 @@
           </li>
           </a></li>
         {% endfor %}
+        {%- if site.support_second_language -%}
+          <a target="_blank" href="{{site.support_second_language.url}}" class="button button--sacnite button--round-l">
+          <i class="fa fa-language" title="language convert"></i>
+        {%- endif -%}
         {% for resume in site.resume %}
-          <li><a href="./Resume.html" target="_blank">
-            <p>{{resume.title | escape}}</p>
-          </a></li>
+          <li>
+            <a href="./Resume.html" target="_blank">
+              <p>{{resume.title | default: "resume" }}</p>
+            </a>
+          </li>
         {% endfor %}
         <li>
           <a href="./Resume.html" target="_blank">
-          <p>resume download</p>
+            <p>resume download</p>
           </a>
         </li>
-        <li>
-          <embed src="./Resume.pdf" type="application/pdf" width=100% height=850px />
-          <p>resume download2</p>
-          </a>
-        </li>
+        
+        
       </ul>
 
       {%- if site.email -%}
@@ -127,6 +130,11 @@
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
+      {% if site.resume %}
+          <li><a href="./Resume.html" target="_blank">
+            <p>{{site.resume.title | default: "resume" }}</p>
+          </a></li>
+        {% endfor %}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
