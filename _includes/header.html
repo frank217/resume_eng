@@ -103,26 +103,11 @@
               <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
           </li>
-          </a></li>
         {% endfor %}
         {%- if site.support_second_language -%}
           <a target="_blank" href="{{site.support_second_language.url}}" class="button button--sacnite button--round-l">
           <i class="fa fa-language" title="language convert"></i>
         {%- endif -%}
-        {% for resume in site.resume %}
-          <li>
-            <a href="./Resume.html" target="_blank">
-              <p>{{resume.title | default: "resume" }}</p>
-            </a>
-          </li>
-        {% endfor %}
-        <li>
-          <a href="./Resume.html" target="_blank">
-            <p>resume download</p>
-          </a>
-        </li>
-        
-        
       </ul>
 
       {%- if site.email -%}
