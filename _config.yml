@@ -31,7 +31,7 @@ linkedin_username: dang-jun-we
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
+#additional_links:
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: /images/Resume_Dang Jun We_2022_ENG.pdf
@@ -43,8 +43,7 @@ additional_links:
 resume: 
  - title: Resume Download
  
-support_second_language: 
- - url: "/resume"
+support_second_language: "../resume"
 
 
 # Google Analytics and Tag Manager
