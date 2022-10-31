@@ -115,11 +115,11 @@
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
-      {% if site.resume %}
+      {%- if site.resume -%}
           <li><a href="./Resume.html" target="_blank">
             <p>{{site.resume.title | default: "resume" }}</p>
           </a></li>
-      {% endif %}
+      {%- endif -%}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
