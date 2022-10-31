@@ -31,10 +31,10 @@ linkedin_username: dang-jun-we
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: /images/Resume_Dang Jun We_2022_ENG.pdf
+# additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: /images/Resume_Dang Jun We_2022_ENG.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,12 +49,12 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  C# / Javascript / Python 기반의 3년차 백엔드 개발자로 3년동안 미국 뉴욕에 본사를 둔 Viagogo / Stubhub 의 퍼포먼스 마케팅팀 에서 
-  **Paid Search 자동화 및 개선**을 주로 해왔습니다.<br/>
-  그 이외에도 팀내에 **A/B 테스팅 툴 웹사이트의 프런트/백엔드** 개발에 기여했으며,
-  자동화에 필요한 **데이타 파이프라이닝**을 위해 Azure Data Explorer(Kusto) 와 SQL도 사용하였습니다.<br/>
-  3년 동안 Google Ads Compliance, 코로나, Stubhub 인수합병 등 회사의 여러 상황을 경험하며 이에 따른 여러 상황해소 및 개선 작업에 참여했습니다.<br/>
-  오늘의집에 영감을 받아 3명의 맴버와 함께 인테리어 관련 SNS **iOS 모바일 앱** 개발. 
+  Back-end Software Engineer with 3 years of experience. During 3 years, worked at Viagogo / Stubhub automating and improving Paid Search as part of Performance marketing team based in New York. 
+  Experience with C# / Javascript / Python.<br/>
+  Participated in **full stack** website develplment for** in house A/B testing website**,
+  as well as **data pipelining** with Azure Data Explorer(Kusto) and SQL.<br/>
+  Experience with developing Google Ads Compliance, back end integration between Viagogo and Stubhub merger and other bugging and improvements to ads aumation.<br/>
+  Startup experience on building iOS SNS applicaiton for furniture and interior design community with 2 other fouding members. 
   
 content:
   - title: Experience # Title for the section
@@ -67,39 +67,35 @@ content:
         sub_title: Performance Marketing Team Software Engineer
         caption:  2019.07 - 2022.07
         quote: >
-          퍼포먼스 마케팅을 이용한 회사 티켓 판매 증가 및 이익증진 기여 
+          Utilize performance marketing to improve ticket sales.
         description: | # this will include new lines to allow paragraphs
-            * **Paid Search 자동화 구현 및 개선**. Google Ads / Google Adwords(deprecated) / Microsoft Ads(Bing) API 툴 사용.
-            * Viagogo 와 Stubhub 합병으로 인한 **백엔드 통합 작업** 수행. DB 통합이후 원활한 Stubhub Paid Search 광고 게재를 위해 데이터 파이프라인 구현
-            및 그에 따른 자동화 프로세스 추가 개발. DB 통합 당일 **트래픽 2배 이상** 증가. 
-            * 키워드 적용범위를 최대한 증가시키기 위해 Google Keyword Planner API 사용해서 신규 키워드 찾는 툴 개발. 광고로 인한 수익의 90% 담당하는 
-            키워드 4천개 사용해 **14만개의 관련 신규 키워드** 발견.
-            * 과도한 API 요청으로 인한 API ratelimit 문제 개선을 위해 Ratelimiter 개발. 당시 발생하는 **ratelimit 80% 감소해** API 요청을 위해 사용되면 리소스
-            감소 및 ratelimit 로깅 감소. 이후 이를 사용해 ratelimit 걸리는 request 세분화 및 순차적으로 가장 많이 많이 문제가 발생하는 부분 위주로 리퀘스 수 개선 요구 및 참여. 
-            * 자동화 시스템에 Bidding Strategy을 상황에 따라 변경 할 수 있게 개발. 이로인해 새로운 Target ROAS(Bidding Strategy)를 사용함에 과도한 Bidding 리퀘스트 50% 감소. 
-            * Google Ads의 규정준수를 위해 팀내 거의 모든 앱에서 사용되는 **Compliance 패키지 구현**. 프로덕트팀이 DB에 규정준수를 위한 제한된 키워드 및 나라 제한을 
-            더하기 위한 파이프라인 구현. 이후 앱에서 이와 관련된 사항 발견시 Azure Data Explorer에 로깅 및 이후 프로세스에서 제외.  
-            * 팀내의 A/B 테스팅을 위한 **웹사이트 툴의 프론트/백엔드** 개발 참여. 기존 프레임 워크에 프로덕트팀 및 개발팀이 테스트에 필요한 페이지 추가.
-            웹사이트 툴로 테스트 만들기, 개발, QA 및 Production 환경에 deploy 가능하게 지원. 테스트 데이터 대시보드 지원. 
-            * A/B 테스팅에서 발생하는 에러 및 지연시간 개선은 위한 SQL 튜닝 및 버그 해소. 원활한 테스트 진행을 위해 14개의 PROC 개선 및 버그 수정.
-      
-      - layout: left
+            * **Developed and improved automation of Paid Search**, using Google Ads / Google Adwords(deprecated) / Microsoft Ads(Bing) API tools.
+            * Back end integration between Viagogo and Stubhub. Developed addition data pipelining and automation process for Stubhub, more than doubling the traffic with paid search on the day of DB integration. 
+            * Developed funcitonality to find new keywords using Google Keyword Planner API. Using **4k keywords** that constitutes 90% of sales, **found new 140k keywords**.
+            * Implmented RateLimiter to resolve API ratelimit related issues. Decreased **80% of ratelimit reqeusts**, thus reducing resources used to create request and log request result
+            by issuing semi-randomized gatetime upon ratelimit. Later categorized requests and utilize its data to improve ratelimit from highest occuring reqeuest.
+            * Developed functionality to alter Bidding Strategy depening on db data. Allowed usage of Target ROAS(Bidding Strategy) to reduce excessive Bidding request by 50%, which also helped with Ratelimit issue. 
+            * In order to comply with Google Ads, created **Compliance package** used in almost every application. Compliacne package decides if ads are compliant based on db data that product team applies for
+             noncompliant keywords and blacklisted country. Package was used during creating of ads, request, and reports to prevent compliance issue and log any noncompliance issue found. 
+            * Participated in creating in-house A/B testing website as fullstack engineer to improve visibility on Test state and data as well as streamlining A/B test process. 
+            Supported front-end pages and back-end db integration for creation, development and deployment of A/B test to QA and PROD as well as dashboard for completed and ongoing test data.
+            * Expedited A/B testing process by debugging and tunning 14 SQL procs used by A/B Testing.
+
         title: HueSpace (Startup)
         #link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Lead Software Engineer
         caption:  2020.07 - 2020.12
         quote: >
-          인테리어 좋아하는 사람들을 위한 SNS!
+          SNS for interior and funiture lovers!
         description: | # this will include new lines to allow paragraphs
-            * **Swift 와 XCode** 사용해 iOS 앱 개발. 
-            * 인스타그램과 유사한 구조의 SNS를 프론트/백엔드 구현.
-            * **Firebase**를 이용한 Nosql DB 구현. 
-            * 사용자 앱 개선을 위해 UX/UI 작업 참여. 
-            * 사용자가 올리는 포스트에 가구 및 색상 태깅 기능을 활용해 원하는 포스트 서치 기능 구현. 
-            * 존재하는 색상 배합 설계툴 이용해 사용자가 원하는 색으로 3개에서 5개의 색상배합 설계 가능한 기능 추가 및
-            이를 사용해 3일 단위로 사람들에게 새로운 색상 배합의 포스트 공유기능 구현. 
-            * Facebook 및 Google Login 기능 추가
+            * iOS developed with **Swift and XCode**. 
+            * Developed fullstack SNS similar to Instatgram.
+            * Implemented Nosql DB with **Firebase**. 
+            * Participated in UX/UI process to improve user experience.
+            * Implement post,comment,like, tag and search functionality. Posts contains tagging of colors and furniture manufacturer in the post, which can be used for search and recommendation.  
+            * Suggest most liked posts and set of posts with new color scheme for user to explore new posts.
+            * Integrated Facebook and Google Login.
 
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
@@ -134,19 +130,20 @@ content:
         caption: 2017 - 2019
         sub_title: BA Computer Science
         quote: >
-          라이스 대학 재학 당시 컴퓨터 과학의 기본이 되는 많은 수업을 들었으며 그 중 개발자로 도움이 되는 수업이 대부분이였습니다. 
+          Coursed taken ad Computer Science major that became basis my career. 
         description: | # this will include new lines to allow paragraphs
-          * Advanced OOP & Design : OOP 이해도 개선과 이를 위해 Java를 사용한 다양한 앱 구현.
-          * Parallel Programing : 병렬프로그래밍 수업. 병렬 프로그래밍의 배움과 이를 이용한 효률적 쓰래딩 이해도 개선. AWS EC2 와 EMR 사용. 
-          * Tools & models for Data Science : SQL 사용법 및 이해도 개선. 
-          * Reasoning of Algorithm : 알고리즘 수업. 이후에 이해도 증진을 위해 수업조교로도 활동. 
-          * Artificial intelligence : 다양한 AI 구현 방법과 이를 이용한 사례 공부 및 구현. 
-          * Linear Algebra : 선영대수학. ML/AI 수업을 위해서 
-          * Linear Regression : 선영회귀. ML/AI 수업을 위해서 
-          * Probabilistic Algorithms and Data Structures : 결정론적인 알고리즘이 아닌 확률론적인 알고리즘 수업. 
-          메모리와 런타임의 2차원 교환인 아닌 정확도까지 포함 3차원적 비결정론적 알고리즘의 이해 및 구현.
-          * Operating System : OS 시스템 구현 수업    
-          * Principle of Programming Languages : 프로그램 언어의 작동방법 이해와 개발에 참여.
+          * Advanced OOP & Design : Improved understadning of OOP(object oriented programing) by devloping various applicaiton with Java.
+          * Parallel Programing : Learn concept of parrallel programing and how to properly use it using AWS EC2 and EMR.
+          * Tools & models for Data Science : Improve understadning and usage of SQL. 
+          * Reasoning of Algorithm : Learn runtime analysis of diverse data structure and algorith. Later participated and teaching assistanct to improve such skill set. 
+          * Artificial intelligence : Learn and implement diverse instances of AI. 
+          * Linear Algebra : Basis for ML/AI courses 
+          * Linear Regression : Basis for ML/AI courses  
+          * Probabilistic Algorithms and Data Structures : Nondeterministic algorithm course. Unlike Deterministic algorithm course where we learns to give and take bewtween Memory and Runtime, 
+          Nondeterministic algorithm learns to give and take between probability on Accuracy and Runtime and memory. Deals with how google and Amazon decrease search runtime. 
+          * Operating System : Learn and implementation OS System.    
+          * Principle of Programming Languages : Learn and implement programming languages, develop functional programming language.
+
 #  - title: Projects # Title for the section
 #    layout: list # Type of content section (list/text)
 #    content:
