@@ -105,10 +105,13 @@
           </li>
         {% endfor %}
         <li>
-          {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-          <embed src="\image\Resume_Dang Jun We_2022_ENG.pdf" width="800px" height="2100px" />
-          </a>
+          <form method="get" action="\image\Resume_Dang Jun We_2022_ENG.pdf">
+            <button type="submit">Download!</button>
+         </form>
         </li>
+        <li><a href="./Resume.html" target="_blank">
+          <p>resume</p>
+          </a></li>
       </ul>
 
       {%- if site.email -%}
