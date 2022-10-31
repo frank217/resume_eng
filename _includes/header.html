@@ -103,10 +103,23 @@
               <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
             </a>
           </li>
-        {% endfor %}
-        <li><a href="./Resume.html" target="_blank">
-          <p>resume download</p>
           </a></li>
+        {% endfor %}
+        {% for resume in site.resume %}
+          <li><a href="./Resume.html" target="_blank">
+            <p>{{resume.title | escape}}</p>
+          </a></li>
+        {% endfor %}
+        <li>
+          <a href="./Resume.html" target="_blank">
+          <p>resume download</p>
+          </a>
+        </li>
+        <li>
+          <embed src="./Resume.pdf" type="application/pdf" width=100% height=850px />
+          <p>resume download2</p>
+          </a>
+        </li>
       </ul>
 
       {%- if site.email -%}

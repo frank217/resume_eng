@@ -7,7 +7,7 @@ baseurl: "/resume_eng"
 version: 2
 
 # Personal info
-name: 위당준
+name: Dang Jun (Frank) We
 title: Software Engineer
 email: djwe1992@gmail.com
 # website: www.github.com/frank217
@@ -31,13 +31,17 @@ linkedin_username: dang-jun-we
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
+additional_links:
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: /images/Resume_Dang Jun We_2022_ENG.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
+
+# Resume PDF
+resume: 
+ - title: Resume Download
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -80,7 +84,8 @@ content:
             * Participated in creating in-house A/B testing website as fullstack engineer to improve visibility on Test state and data as well as streamlining A/B test process. 
             Supported front-end pages and back-end db integration for creation, development and deployment of A/B test to QA and PROD as well as dashboard for completed and ongoing test data.
             * Expedited A/B testing process by debugging and tunning 14 SQL procs used by A/B Testing.
-
+      
+      - layout: left
         title: HueSpace (Startup)
         #link: boringcompany.com
         # link_text: boringcompany.com
