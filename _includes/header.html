@@ -134,7 +134,7 @@
           <li><a href="./Resume.html" target="_blank">
             <p>{{site.resume.title | default: "resume" }}</p>
           </a></li>
-        {% endfor %}
+      {% endif %}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
