@@ -126,7 +126,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * Language : Javascript, Html, CCS,
           * DJango, Bootstropm, NodeJS
-          * Swift(iOS 개발)
+          * Swift(iOS)
     
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
